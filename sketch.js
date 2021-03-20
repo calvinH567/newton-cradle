@@ -36,7 +36,6 @@ function draw() {
   ground.display()
   obj1.display();
   rope.display();
-  obj2.display();
   ground2.display();
   
 }
