@@ -20,7 +20,7 @@ function setup() {
 	ground = new Ground(400,50,0,0);
 	obj1 = new Circle(400,300,75,75);
 	//Create the Bodies Here.
-	rope = new Rope(obj1.body,{x:400,y:50});
+	rope = new Rope(obj1.body,{x:400,y:150});
 
 
 	Engine.run(engine);
