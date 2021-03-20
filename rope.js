@@ -6,6 +6,7 @@ class Rope {
             bodyA: bodyA,
             pointB: pointB
         }
+        this.pointB = pointB;
         this.body = Constraint.create(options);
         World.add(world,this.body)
     }
